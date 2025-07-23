@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday My Love</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <section class="hero" id="section1">
+      <h1>Happy Birthday Pichuu Rani ❤️</h1>
+      <p class="fade-in">Subah uthane se sone tak, You are my Sukun in all these struggles.</p>
+      <button onclick="showNextSection()">Pichu isko click kro</button>
+    </section>
+
+    <section class="message hidden" id="section2">
+      <h2>🎉 Surprise #1</h2>
+      <p>🌸 You Are My Forever<br/>
+      From our first talk to now — it's been a journey full of love, laughter, and magic.</p>
+      <button onclick="showNextSection()">Next Surprise 💌</button>
+    </section>
+
+    <section class="gallery hidden" id="section3">
+      <h2>💖 Surprise #2 - Memories</h2>
+      <p>Our beautiful memories together, captured in time.</p>
+      <div class="gallery-images">
+        <img src="image/WhatsApp Image 2025-07-23 at 18.45.53.jpeg" alt="Love 1">
+        <img src="image/WhatsApp Image 2025-07-23 at 18.45.54 (1).jpeg" alt="Love 2">
+        <img src="image/WhatsApp Image 2025-07-23 at 18.45.54.jpeg" alt="Love 3">
+      </div>
+      <button onclick="showNextSection()">Another Surprise 🎁</button>
+    </section>
+
+    <section class="hidden" id="section4">
+      <h2>💌 Surprise #3 - A Little Letter</h2>
+      <p>
+        My dearest wifeyy,<br>
+        Thank you for being the light in my life. You make each day brighter just by being you. <br>
+        I promise to keep loving, caring, and surprising you—forever. 💫
+      </p>
+      <button onclick="showNextSection()">Final Surprise 💍</button>
+    </section>
+
+    <section class="hidden" id="section5">
+      <h2>💍 Surprise #4 - The Promise</h2>
+      <p>
+        No matter how many birthdays pass, you will always be the queen of my heart. 👑<br>
+        I’ll be your biggest fan, your protector, your home.<br>
+        Forever yours... ❤️
+      </p>
+      <button onclick="showConfetti()">Click For Magic 🎊</button>
+    </section>
+
+    <section></section>
+
+    <canvas id="confetti-canvas" class="hidden"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
